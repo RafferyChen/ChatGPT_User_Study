@@ -36,3 +36,17 @@ Don't hesitate to ask questions if anything is unclear.
 ## Post-Study Survey
 #### [Post-Study Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6rdAT4YmCUtJgPhOLnwBHWJUMlU1M0NBVzBJUklGWUw4QUlPOVA2NFZTSi4u)
 Upon completion of the task, we ask that you fill out a post-study survey. Your feedback is important in understanding the user experience and the utility of ChatGPT.
+
+## Submission Instructions
+
+Thank you for participating in our study! After you have completed the tasks, you will need to submit the following items:
+
+1. **A ZIP Archive of Your Project Folder**
+
+2. **Screen Recording file**
+
+3. **Sending Your Submission:**
+    - Attach the ZIP archive of your project and the recording file(s) to an email.
+    - Send your email to `rufeng.chen@mail.mcgill.ca`.
+
+Thank you once again for your participation and for contributing to this research project.
