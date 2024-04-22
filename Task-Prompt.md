@@ -32,9 +32,9 @@ The following are the substrings of `num` of length `k`:
 - "43" from "430043": 43 is a divisor of 430043.
 - "30" from "430043": 30 is not a divisor of 430043 (ignored).
 - "00" from "430043": 0 is not a divisor of 430043 (ignored).
-- "04" from "430043": 4 is a divisor of 430043.
-- "43" from "430043" (again): 43 is a divisor of 430043.
-  Since "43" appears twice as a divisor, it is only counted once. Hence, the total is 2.
+- "04" from "430043": 4 is not a divisor of 430043.
+- "43" from "430043": 43 is a divisor of 430043.
+  Hence, the total is 2.
 
 ## Task
 Write a function `divisorSubstrings(num, k)` that returns the k-beauty of the given number `num`.
