@@ -34,7 +34,9 @@ In this section, you will be presented with a specific coding task you need to c
 Don't hesitate to ask questions if anything is unclear.
 
 ## Post-Study Survey
-#### [Post-Study Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6rdAT4YmCUtJgPhOLnwBHWJUMlU1M0NBVzBJUklGWUw4QUlPOVA2NFZTSi4u)
+#### [Post-Study Survey with ChatGPT](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6rdAT4YmCUtJgPhOLnwBHWJUMlU1M0NBVzBJUklGWUw4QUlPOVA2NFZTSi4u)
+#### [Post-Study Survey without ChatGPT](https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6rdAT4YmCUtJgPhOLnwBHWJUNEUzQ0pROVFaSkJOQTY1T0U0QzU1RjY1Ni4u)
+
 Upon completion of the task, we ask that you fill out a post-study survey. Your feedback is important in understanding the user experience and the utility of ChatGPT.
 
 ## Submission Instructions
