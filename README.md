@@ -27,7 +27,7 @@ Solve a LeetCode-style coding question related to the video topic. Half of the p
 - If using ChatGPT, you can ask for any form of assistance.
 
 ## Watch the Video
-[Sliding window technique](https://www.youtube.com/watch?v=p-ss2JNynmw)
+[Sliding window technique](https://www.youtube.com/watch?v=MK-NZ4hN7rs)
 
 ## Read the Task
 In this section, you will be presented with a specific coding task you need to complete. Please read the task carefully to understand the requirements and objectives before you begin.
