@@ -1,6 +1,3 @@
-package test.java;
-
-import main.Java.Task;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
