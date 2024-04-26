@@ -1,41 +1,38 @@
-# Coding Task: Find the K-Beauty of a Number
+# Coding Task: Maximize the Confusion of an Exam
 
 ## Problem Statement
-The **k-beauty** of an integer `num` is defined as the number of substrings of `num` (when it is read as a string) that meet the following conditions:
+A teacher is writing a test with `n` true/false questions, with `T` denoting true and `F` denoting false. He wants to confuse the students by maximizing the number of consecutive questions with the same answer (multiple trues or multiple falses in a row).
 
-- The substring has a length of `k`.
-- The substring, when converted back to an integer, is a divisor of `num`.
+You are given a string answerKey, where `answerKey[i]` is the original answer to the ith question. In addition, you are given an integer `k`, the maximum number of times you may perform the following operation:
 
-**Constraints**:
-- Leading zeros are allowed.
-- Note that `0` is not a divisor of any value.
-
-## Requirements
-Given integers `num` and `k`, return the k-beauty of `num`. A substring is a contiguous sequence of characters within a string.
+Change the answer key for any question to `T` or `F` (i.e., set `answerKey[i]` to `T` or `F`).
+Return the maximum number of consecutive `T`s or `F`s in the answer key after performing the operation at most `k` times.
 
 ## Examples
 
 ### Example 1:
-**Input:** `num = 240, k = 2`  
-**Output:** `2`  
+**Input:** `answerKey = "TTFF", k = 2`  
+**Output:** `4`  
 **Explanation:**
-The following are the substrings of `num` of length `k`:
-- "24" from "240": 24 is a divisor of 240.
-- "40" from "240": 40 is a divisor of 240.
-  Therefore, the k-beauty is 2.
+We can replace both the `F`s with `T`s to make answerKey = `TTTT`.
+There are four consecutive `T`s.
 
 ### Example 2:
-**Input:** `num = 430043, k = 2`  
-**Output:** `2`  
+**Input:** `answerKey = "TTFF", k = 1`  
+**Output:** `3`  
 **Explanation:**
-The following are the substrings of `num` of length `k`:
-- "43" from "430043": 43 is a divisor of 430043.
-- "30" from "430043": 30 is not a divisor of 430043 (ignored).
-- "00" from "430043": 0 is not a divisor of 430043 (ignored).
-- "04" from "430043": 4 is not a divisor of 430043.
-- "43" from "430043": 43 is a divisor of 430043.
-  Hence, the total is 2.
+We can replace the first `T` with an `F` to make answerKey = `FFFT`.
+Alternatively, we can replace the second `T` with an 'F' to make answerKey = `TFFF`.
+In both cases, there are three consecutive `F`s.
+
+### Example 3:
+**Input:** `answerKey = "TTFTTFTT", k = 1`  
+**Output:** `5`  
+**Explanation:**
+We can replace the first `F` to make answerKey = `TTTTTFTT`.
+Alternatively, we can replace the second `F` to make answerKey = `TTFTTTTT`.
+In both cases, there are five consecutive `T`s.
 
 ## Task
-Write a function `divisorSubstrings(num, k)` that returns the k-beauty of the given number `num`.
+Write a function `maxConsecutiveAnswers(answerKey, k)` that returns the maximum number of consecutive `T`s or `F`s.
 

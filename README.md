@@ -21,7 +21,7 @@ Solve a LeetCode-style coding question related to the video topic. Half of the p
 ### Task Guidelines
 - Thoroughly read and understand the coding task question prompt.
 - Feel free to ask any clarifying questions.
-- You will have a 20-minute window to complete each task.
+- You will have a 20-minute window to complete the task.
 - Your screen will be recorded during the task.
 - Test cases will be provided for you to use in debugging your code.
 - If using ChatGPT, you can ask for any form of assistance.
@@ -39,16 +39,23 @@ Don't hesitate to ask questions if anything is unclear.
 
 Upon completion of the task, we ask that you fill out a post-study survey. Your feedback is important in understanding the user experience and the utility of ChatGPT.
 
-## Submission Instructions
+[//]: # (## Submission Instructions)
 
-Thank you for participating in our study! After you have completed the tasks, you will need to submit the following items:
+[//]: # ()
+[//]: # (Thank you for participating in our study! After you have completed the tasks, you will need to submit the following items:)
 
-1. **A ZIP Archive of Your Project Folder**
+[//]: # ()
+[//]: # (1. **A ZIP Archive of Your Project Folder**)
 
-2. **Screen Recording file**
+[//]: # ()
+[//]: # (2. **Screen Recording file**)
 
-3. **Sending Your Submission:**
-    - Attach the ZIP archive of your project and the recording file(s) to an email.
-    - Send your email to `rufeng.chen@mail.mcgill.ca`.
+[//]: # ()
+[//]: # (3. **Sending Your Submission:**)
 
-Thank you once again for your participation and for contributing to this research project.
+[//]: # (    - Attach the ZIP archive of your project and the recording file&#40;s&#41; to an email.)
+
+[//]: # (    - Send your email to `rufeng.chen@mail.mcgill.ca`.)
+
+[//]: # ()
+[//]: # (Thank you once again for your participation and for contributing to this research project.)

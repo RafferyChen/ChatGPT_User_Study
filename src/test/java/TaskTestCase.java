@@ -6,32 +6,17 @@ public class TaskTestCase {
 
     @Test
     public void test1() {
-        Assertions.assertEquals(2, task.divisorSubstrings(240,2));
+        Assertions.assertEquals(4, task.maxConsecutiveAnswers("TTFF",2));
     }
 
     @Test
     public void test2() {
-        Assertions.assertEquals(2, task.divisorSubstrings(430043,2));
+        Assertions.assertEquals(3, task.maxConsecutiveAnswers("TFFT",1));
     }
 
     @Test
     public void test3() {
-        Assertions.assertEquals(0, task.divisorSubstrings(123456,3));
-    }
-
-    @Test
-    public void test4() {
-        Assertions.assertEquals(2, task.divisorSubstrings(101010,3));
-    }
-
-    @Test
-    public void test5() {
-        Assertions.assertEquals(3, task.divisorSubstrings(555,1));
-    }
-
-    @Test
-    public void test6() {
-        Assertions.assertEquals(1, task.divisorSubstrings(999999,6));
+        Assertions.assertEquals(5, task.maxConsecutiveAnswers("TTFTTFTT",1));
     }
 
 }
