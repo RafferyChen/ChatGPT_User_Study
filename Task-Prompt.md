@@ -1,38 +1,26 @@
-# Coding Task: Maximize the Confusion of an Exam
+# Coding Task: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 ## Problem Statement
-A teacher is writing a test with `n` true/false questions, with `T` denoting true and `F` denoting false. He wants to confuse the students by maximizing the number of consecutive questions with the same answer (multiple trues or multiple falses in a row).
+Given an array of integers `nums` and an integer `limit`, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to the limit.
 
-You are given a string answerKey, where `answerKey[i]` is the original answer to the ith question. In addition, you are given an integer `k`, the maximum number of times you may perform the following operation:
+## Example
+**Input:** `nums = [8, 2, 4, 7]`, `limit = 4`  
+**Output:** 2  
+**Explanation:** All subarrays are:  
+- `[8]` with maximum absolute diff `|8-8| = 0 <= 4`.
+- `[8,2]` with maximum absolute diff `|8-2| = 6 > 4`.
+- `[8,2,4]` with maximum absolute diff `|8-2| = 6 > 4`.
+- `[8,2,4,7]` with maximum absolute diff `|8-2| = 6 > 4`.
+- `[2]` with maximum absolute diff `|2-2| = 0 <= 4`.
+- `[2,4]` with maximum absolute diff `|2-4| = 2 <= 4`.
+- `[2,4,7]` with maximum absolute diff `|2-7| = 5 > 4`.
+- `[4]` with maximum absolute diff `|4-4| = 0 <= 4`.
+- `[4,7]` with maximum absolute diff `|4-7| = 3 <= 4`.
+- `[7]` with maximum absolute diff `|7-7| = 0 <= 4`.
 
-Change the answer key for any question to `T` or `F` (i.e., set `answerKey[i]` to `T` or `F`).
-Return the maximum number of consecutive `T`s or `F`s in the answer key after performing the operation at most `k` times.
+Therefore, the size of the longest subarray is 2.
 
-## Examples
-
-### Example 1:
-**Input:** `answerKey = "TTFF", k = 2`  
-**Output:** `4`  
-**Explanation:**
-We can replace both the `F`s with `T`s to make answerKey = `TTTT`.
-There are four consecutive `T`s.
-
-### Example 2:
-**Input:** `answerKey = "TTFF", k = 1`  
-**Output:** `3`  
-**Explanation:**
-We can replace the first `T` with an `F` to make answerKey = `FFFT`.
-Alternatively, we can replace the second `T` with an 'F' to make answerKey = `TFFF`.
-In both cases, there are three consecutive `F`s.
-
-### Example 3:
-**Input:** `answerKey = "TTFTTFTT", k = 1`  
-**Output:** `5`  
-**Explanation:**
-We can replace the first `F` to make answerKey = `TTTTTFTT`.
-Alternatively, we can replace the second `F` to make answerKey = `TTFTTTTT`.
-In both cases, there are five consecutive `T`s.
 
 ## Task
-Write a function `maxConsecutiveAnswers(answerKey, k)` that returns the maximum number of consecutive `T`s or `F`s.
+Write a function `longestContinousSubarray(nums, limit)` that returns the size of the longest subarray.
 
