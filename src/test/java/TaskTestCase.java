@@ -6,17 +6,12 @@ public class TaskTestCase {
 
     @Test
     public void test1() {
-        Assertions.assertEquals(4, task.maxConsecutiveAnswers("TTFF",2));
+        Assertions.assertEquals(2, task.longestContinousSubarray(new int[]{8, 2, 4, 7}, 4));
     }
 
     @Test
     public void test2() {
-        Assertions.assertEquals(3, task.maxConsecutiveAnswers("TFFT",1));
-    }
-
-    @Test
-    public void test3() {
-        Assertions.assertEquals(5, task.maxConsecutiveAnswers("TTFTTFTT",1));
+        Assertions.assertEquals(3, task.longestContinousSubarray(new int[]{10, 1, 12, 8, 14, 5, 7}, 6));
     }
 
 }
