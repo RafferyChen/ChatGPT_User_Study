@@ -1,5 +1,5 @@
 public class Task {
-    public int maxConsecutiveAnswers(String answerKey, int k) {
+    public int longestContinousSubarray(int[] nums, int limit) {
         int answer = -1;
 
         return answer;
